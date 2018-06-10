@@ -43,7 +43,7 @@ namespace Teste_Aula_12
             {
                 Console.WriteLine("Este nome não podeser utilizado. Contém caracter '@' que é inválido");
                 i = +1;
-             }
+            }
             return i;
         }
 
