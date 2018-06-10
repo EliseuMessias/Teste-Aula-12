@@ -1,0 +1,6 @@
+C:\Users\Compaq\Documents\GitHub\Testes Aula 12\Teste Aula 12\Teste Aula 12\bin\Debug\Teste Aula 12.exe.config
+C:\Users\Compaq\Documents\GitHub\Testes Aula 12\Teste Aula 12\Teste Aula 12\bin\Debug\Teste Aula 12.exe
+C:\Users\Compaq\Documents\GitHub\Testes Aula 12\Teste Aula 12\Teste Aula 12\bin\Debug\Teste Aula 12.pdb
+C:\Users\Compaq\Documents\GitHub\Testes Aula 12\Teste Aula 12\Teste Aula 12\obj\Debug\Teste Aula 12.csprojResolveAssemblyReference.cache
+C:\Users\Compaq\Documents\GitHub\Testes Aula 12\Teste Aula 12\Teste Aula 12\obj\Debug\Teste Aula 12.exe
+C:\Users\Compaq\Documents\GitHub\Testes Aula 12\Teste Aula 12\Teste Aula 12\obj\Debug\Teste Aula 12.pdb

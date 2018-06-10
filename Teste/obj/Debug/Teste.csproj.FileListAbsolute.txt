@@ -1,0 +1,15 @@
+C:\Users\Compaq\Documents\GitHub\Testes Aula 12\Teste Aula 12\Teste\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Compaq\Documents\GitHub\Testes Aula 12\Teste Aula 12\Teste\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Compaq\Documents\GitHub\Testes Aula 12\Teste Aula 12\Teste\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Compaq\Documents\GitHub\Testes Aula 12\Teste Aula 12\Teste\bin\Debug\Teste.dll
+C:\Users\Compaq\Documents\GitHub\Testes Aula 12\Teste Aula 12\Teste\bin\Debug\Teste.pdb
+C:\Users\Compaq\Documents\GitHub\Testes Aula 12\Teste Aula 12\Teste\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Compaq\Documents\GitHub\Testes Aula 12\Teste Aula 12\Teste\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Compaq\Documents\GitHub\Testes Aula 12\Teste Aula 12\Teste\bin\Debug\Teste Aula 12.exe
+C:\Users\Compaq\Documents\GitHub\Testes Aula 12\Teste Aula 12\Teste\bin\Debug\Teste Aula 12.pdb
+C:\Users\Compaq\Documents\GitHub\Testes Aula 12\Teste Aula 12\Teste\bin\Debug\Teste Aula 12.exe.config
+C:\Users\Compaq\Documents\GitHub\Testes Aula 12\Teste Aula 12\Teste\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Compaq\Documents\GitHub\Testes Aula 12\Teste Aula 12\Teste\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Compaq\Documents\GitHub\Testes Aula 12\Teste Aula 12\Teste\obj\Debug\Teste.csprojResolveAssemblyReference.cache
+C:\Users\Compaq\Documents\GitHub\Testes Aula 12\Teste Aula 12\Teste\obj\Debug\Teste.dll
+C:\Users\Compaq\Documents\GitHub\Testes Aula 12\Teste Aula 12\Teste\obj\Debug\Teste.pdb
