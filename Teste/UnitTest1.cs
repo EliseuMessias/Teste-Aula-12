@@ -66,6 +66,9 @@ namespace Teste
         [TestMethod]
         public void nomeC1()
         {
+            a1.Nome = "Felipe";
+            a2.Snome = "Vozgeral Çanca";
+
             Assert.AreEqual(("Felipe Vozgeral Çanca"), a1.nomeCompleto());
         }
         [TestMethod]
@@ -74,7 +77,7 @@ namespace Teste
             a2.Nome = "Alin@";
             a2.Snome = "Branca";
 
-            Assert.AreEqual(("Alin@ Branca"), a2.nomeCompleto());
+            Assert.AreEqual(("Aline Branca"), a2.nomeCompleto());
         }
         [TestMethod]
         public void nomeC3()
