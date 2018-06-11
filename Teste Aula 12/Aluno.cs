@@ -25,7 +25,7 @@ namespace Teste_Aula_12
 
         public string nomeCompleto()
         {
-            return Nome + " " + Snome;
+            return "" + Nome + " " + Snome + "";
         }
 
         public int validarNome()
@@ -42,7 +42,7 @@ namespace Teste_Aula_12
             if (n.Contains("@") || s.Contains("@"))
             {
                 Console.WriteLine("Este nome não podeser utilizado. Contém caracter '@' que é inválido");
-                i = +1;
+                i = +2;
             }
             return i;
         }
@@ -50,20 +50,18 @@ namespace Teste_Aula_12
         public string erroValidacao(int i)
         {
             string m;
-            if (i > 0 && i < 2 || i < 0)
+            if (validarNome() == 1)
             {
-                m = "ERROR";
+                m = "ERROR POR 'Ç'";
+                return m;
+            }
+            else if (validarNome() == 2)
+            {
+                m = "ERROR POR '@'";
                 return m;
             }
 
-
-            else if (i == 0 || i > 2)
-            {
-                m = "NO ERROR";
-                return m;
-            }
-
-            return "DEFAULT";
+            return " ";
         }
     }
 }

@@ -50,7 +50,7 @@ namespace Teste
             a2.Nome = "Alin@";
             a2.Snome = "Branca";
 
-            Assert.IsTrue(a2.validarNome() != 0);
+            Assert.IsFalse(a2.validarNome() != 0);
         }
         [TestMethod]
         public void nome3()
@@ -66,10 +66,7 @@ namespace Teste
         [TestMethod]
         public void nomeC1()
         {
-            a1.Nome = "Felipe";
-            a1.Snome = "Vozgeral Çanca";
-
-            Assert.AreEqual((a1.Nome + " " + a1.Snome), a1.nomeCompleto());
+            Assert.AreEqual(("Felipe Vozgeral Çanca"), a1.nomeCompleto());
         }
         [TestMethod]
         public void nomeC2()
@@ -77,7 +74,7 @@ namespace Teste
             a2.Nome = "Alin@";
             a2.Snome = "Branca";
 
-            Assert.AreEqual((a2.Nome + " " + a2.Snome), a2.nomeCompleto());
+            Assert.AreEqual(("Alin@ Branca"), a2.nomeCompleto());
         }
         [TestMethod]
         public void nomeC3()
@@ -85,7 +82,7 @@ namespace Teste
             a3.Nome = "Alfredo";
             a3.Snome = "Sella III";
 
-            Assert.AreEqual((a3.Nome + "" + a3.Snome), a3.nomeCompleto());
+            Assert.AreEqual((a3.Nome + " " + a3.Snome), a3.nomeCompleto());
         }
         #endregion
 
@@ -95,16 +92,18 @@ namespace Teste
         {
             a1.Nome = "Felipe";
             a1.Snome = "Vozgeral Çanca";
+
             a1.validarNome();
-            Assert.AreEqual("NO ERROR", a1.erroValidacao(a1.validarNome()));
+            Assert.AreEqual("ERROR POR 'Ç'", a1.erroValidacao(a1.validarNome()));
         }
         [TestMethod]
         public void erro2()
         {
-            a2.Nascimento = new DateTime(2020, 01, 01);
+            a2.Nome = "Alin@";
+            a2.Snome = "Branca";
 
-            a2.Idade();
-            Assert.AreEqual("ERROR", a2.erroValidacao(a2.Idade()));
+            a2.validarNome();
+            Assert.AreEqual("ERROR POR '@'", a2.erroValidacao(a2.validarNome()));
         }
         [TestMethod]
         public void erro3()
@@ -113,7 +112,7 @@ namespace Teste
             a3.Snome = "Sella III";
 
             a3.validarNome();
-            Assert.AreEqual("NO ERROR", a3.erroValidacao(a3.validarNome()));
+            Assert.AreEqual("ERROR POR 'Ç'", a3.erroValidacao(a3.validarNome()));
         }
         #endregion
     }
